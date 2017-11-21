@@ -14,7 +14,7 @@ mongoClient.connect("mongodb://localhost:27017/todoDB", function(err, db) {
   var doc2 = {'hello':'doc2'};
   var lotsOfDocs = [{'hello':'doc3'}, {'hello':'doc4'}];
 
-  collection.insert(doc1,)
+  collection.insert(doc1)
 
   collection.insert(doc2, {w:1}, function(err, result) {});
 
